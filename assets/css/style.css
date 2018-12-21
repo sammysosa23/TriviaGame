@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+/* BACKGROUND IMAGE & INFO */
+body {
+    background-image: url(../images/beerOne.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: absolute;
+    overflow: auto;
+    height:100%;
+    text-align: center;
+}
+/* HEADER STYLING */
+h1{
+    font-size: 6.5em;
+    font-weight: bold;
+    color: black;
+    padding-top: 2.5%;
+    margin-top: 40px;
+}
+/* TIME - QUESTION STYLING */
+h2 {
+    font-size: 44px;
+    margin-bottom: 10px;
+    font-weight: 100;
+    font-family: 'Anton', sans-serif;
+}
+/* ANSWER 'CORRECT' 'INCORRECT' 'UNANSWERED' STYLING */
+h3 {
+    font-size: 38px;
+    margin-bottom: 10px;
+    font-family: 'Anton', sans-serif;
+}
+/* PARAGRAPH STYLING */
+p {
+    text-shadow: 2px 2px #AEACAC;
+    font-size: 40px;
+    margin: 0; 
+    font-weight: 300;
+}
+/* GIF - STICKER - IMAGE STYLING  */
+img {
+    height: 400px;
+} 
+/* START BUTTON:HOVER STYLING */
+button:hover {
+    display: inline-block;
+    width: 35%;
+    height: 20%;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    padding: 15px 32px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    background-color: black; 
+    color: white;
+} 
+/* ANSWER BUTTON:HOVER STYLING */
+#button:hover {
+    display: inline-block;
+    width: 35%;
+    height: 20%;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    background: black;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    background-color: black; 
+    color: white;
+} 
+
+button, #button  { 
+    display: inline-block;
+    width: 50%;
+    height: 20%;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    font-size: 42px;
+    color: #000000;
+    font-weight: 300;
+}
+/* ANSWER BUTTON FONT STYLING */
+button {
+    font-family: 'Anton', sans-serif;
+}
+/* START BUTTON:HOVER STYLING */
+#start:hover {
+   background-color: black; 
+   color: white;
+}
+  /* START BUTTON STYLING */
+#start {
+    background: transparent;
+    border: none;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 62px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 5%;
+}
+/* ANSWER BUTTON STYLING */
+answer-button {
+    background: transparent;
+    border: none;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 62px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 5%;
+}
+ /* ANSWER BUTTON:HOVER STYLING */
+answer-button:hover {
+    display: inline-block;
+    width: 35%;
+    height: 20%;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    padding: 15px 32px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    background-color: black; 
+    color: white;
+}
+
+#subwrapper{
+    position: relative;
+}
+
+
+
+  
+
+  
+  
+  
+
+  
